@@ -5,12 +5,11 @@
 
 ## Description
 
-This service allows you to run a PHP script that makes a cURL request to a specific address at a scheduled interval. The service ensures that only one instance of the script is running at a time and prevents starting a new instance if the script is already running.
+This service allows you to run a script that makes a cURL request to a specific address at a scheduled interval. The service ensures that only one instance of the script is running at a time and prevents starting a new instance if the script is already running.
 
 ## Prerequisites
 
 - **Operating System**: Ubuntu (or any Linux-based system)
-- **PHP**: Make sure you have PHP installed on your server to execute the PHP script.
 
 ## Getting Started
 
@@ -70,7 +69,6 @@ If you encounter any issues or errors, please check the following:
 
 - Ensure that you have the appropriate permissions to execute the scripts.
 
-- Make sure PHP is installed and accessible in your system's PATH.
 
 - Verify that the `curl_request.sh` script contains the correct URL to make the cURL request.
 
